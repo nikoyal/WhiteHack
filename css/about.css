@@ -1,0 +1,31 @@
+#wrapper{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+#about-left{
+    width: 50%;
+    height: 100%;
+    border-right:10px solid;
+    border-bottom:0px;
+    border-left:0px;
+    border-color:black;
+    border-style: double;
+    text-align:center;
+    float:left;
+}
+#about-right{
+    width: 50%;
+    height: 100%;
+    text-align:center;
+    float:left;
+}
+.about-header{
+    margin-top:50px;
+    font-size:50px;
+    color:white;
+}
+.about-text{
+    font-size:30px;
+    color:white;
+}

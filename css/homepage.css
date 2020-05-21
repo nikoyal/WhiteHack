@@ -1,0 +1,30 @@
+.homepage-div{
+    position:relative;
+    top:70px;
+    width:900px;
+    height: 300px;
+    color:white;
+    font-size:55px;
+    font-style: oblique;
+    margin-left: 20px;
+}
+#homeAbout {
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:linear-gradient(to bottom, darkslategrey 5%, black 100%);
+	background-color:#768d87;
+	border-radius:8px;
+	border:2px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-family:Georgia;
+	font-size:24px;
+	font-style:italic;
+	padding:17px 37px;
+    text-shadow:0px -1px 0px #2b665e;
+}
+#homeAbout:hover {
+	background:linear-gradient(to bottom, black 5%, darkslategrey 100%);
+	background-color:#6c7c7c;
+}
+        

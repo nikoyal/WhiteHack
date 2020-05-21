@@ -1,0 +1,58 @@
+#registerForm{
+    background-color: black;
+    width: 450px;
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#username{
+    background-color: black;
+    color:white;
+    width: 300px;
+    height: 60px;
+    font-size: 30px;
+    position: relative;
+    top: 50px;
+    left: 75px;
+}
+#password{
+    background-color: black;
+    color:white;
+    width: 300px;
+    height: 60px;
+    font-size: 30px;
+    position: relative;
+    top: 100px;
+    left: 75px; 
+}
+#repeatPassword{
+    background-color: black;
+    color:white;
+    width: 300px;
+    height: 60px;
+    font-size: 30px;
+    position: relative;
+    top: 150px;
+    left: 75px; 
+}
+#registerLabel{
+    font-style: oblique;
+    font-size: 80px;
+    text-align:center;
+    color:white;
+}
+#SignUp{
+    font-style: oblique;
+    width: 200px;
+    height: 60px;
+    position: relative;
+    top: 200px;
+    left: 125px;
+    font-size:45px; 
+}   
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

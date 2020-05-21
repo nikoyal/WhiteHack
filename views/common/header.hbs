@@ -1,0 +1,15 @@
+<header>
+    <a href="#/home" class="header-home">Home</a>
+    <a id="userButton">{{username}}</a>
+    <div class="header-right">
+        <a href="#/about" class="header-button">About</a>
+        {{#if loggedIn}}
+        <a href="#/challenges" class="header-button">Challenges</a>
+        <a href="#/ranklist" class="header-button">Ranklist</a>
+        <a href="#/logout" class="header-button">Logout</a>
+        {{else}}
+        <a href="#/register" class="header-button">Register<a>
+        <a href="#/login" class="header-button">Login</a>
+        {{/if}}
+    </div>
+</header>

@@ -1,0 +1,77 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    height: 6%;
+    width: 100%;
+    padding: inherit;
+    overflow: hidden;
+    padding-left: -100px;
+    background-color:black;
+}
+    
+#userButton{
+    font-size: 31px;
+    font-style: italic;
+    color: burlywood;   
+    width:100px;
+    height: 100px;
+    margin-left:18px;
+    margin-right: 10px;;
+    padding: 4px;
+    text-decoration: none;
+    border:10px;
+}
+
+.header-button {
+    font-size: 31px;
+    color:white;
+    margin-left:18px;
+    margin-right: 1px;;
+    padding: 4px;
+    text-decoration: none;
+    border:10px;
+}
+
+.header-home{
+    font-size: 35px;
+    color:white;
+    text-decoration:none;
+    margin-right: 1px;;
+    padding: 4px;
+}
+  
+.header-right {
+    float: right;
+}
+
+header a:hover{
+    background-color: darkslategray;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: inherit;
+    text-align: center;
+    background-color: black;
+    color:white;
+}
+
+
+#userbutton:hover{
+    background-color: darkslategray;
+}
+
+* {box-sizing:border-box}
